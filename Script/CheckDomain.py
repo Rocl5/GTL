@@ -5,7 +5,7 @@ import time
 
 
 """
-@descript: 用来判断GetSubDomain得到的子域名是否可以访问，进而使用crawlergo+xray联合漏扫
+@descript: 用来判断GetSubDomain得到的子域名是否可以访问
 """
 
 
@@ -72,5 +72,5 @@ class CheckDomain:
             write_data = queue.get()
             x.write(write_data+'\n')
         x.close()
-        print('\033[032m[INFO]\033[0m CheckDomain Module Has Finished Running!')
+        print('\033[032m[SUCC]\033[0m CheckDomain Module Has Finished Running!')
         print('\033[032m[INFO]\033[0m The number of links obtained is: %d' % self.num)
