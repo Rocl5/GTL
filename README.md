@@ -19,3 +19,5 @@ python3 GTL.py -f targets.txt
 ## 后续想法
 首先肯定是完善成一个信息收集的工具，端口扫描，web容器指纹收集肯定是要有的
 后续会与crawlergo+xray进行联动,有时间的话将会更新
+
+大佬们给萌新点点star吧，跪～
